@@ -21,8 +21,8 @@ nav {
 }
 /* ------ landing page ------- */
 
-#landing-box {
-  background-color: grey;
+.box {
+  border: 2px solid black;
   padding: 10px;
   margin-top: 20px;
   display: flex;
@@ -31,7 +31,7 @@ nav {
 }
 
 /* ------- Create build ------- */
-#build-form {
+form {
   display: flex;
   flex-direction: column;
 }
@@ -41,3 +41,4 @@ nav {
   justify-content: space-between;
 }
 
+/* --------- create account ------- */
