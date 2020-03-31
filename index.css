@@ -19,7 +19,12 @@ nav {
   height: 30px;
   margin-bottom:20px ;
 }
-/* ------ landing page ------- */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .box {
   border: 2px solid black;
@@ -31,14 +36,25 @@ nav {
 }
 
 /* ------- Create build ------- */
-form {
-  display: flex;
-  flex-direction: column;
-}
 
 #stats div{
   display: flex;
   justify-content: space-between;
 }
 
-/* --------- create account ------- */
+/* -------- Build-List ------------- */
+
+#build-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.build-li {
+  list-style: none;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+  max-width: 500px
+}
