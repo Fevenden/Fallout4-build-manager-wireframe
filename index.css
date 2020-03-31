@@ -17,6 +17,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   height: 30px;
+  margin-bottom:20px ;
 }
 /* ------ landing page ------- */
 
@@ -30,4 +31,13 @@ nav {
 }
 
 /* ------- Create build ------- */
+#build-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#stats div{
+  display: flex;
+  justify-content: space-between;
+}
 

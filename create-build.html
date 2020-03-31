@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <a href="#">login</a>
+    <span>/</span>
+    <a href="#">logout</a>
+  </nav>
+  <Header>
+    <h2>Create Character Build</h2>
+  </Header>
+  <main>
+    <section class="form-box">
+      <form action="#" id="build-form">
+        <label for="title">Build Title</label>
+        <input type="text" id="title" name="title">
+        <fieldset id="stats">
+          <legend>Stats</legend>
+          <div>
+            <label for="strength">Strength:</label>
+            <input type="number" id="strength" name="strength" min="1" max="10" value="1" required>
+          </div>
+          <div>
+            <label for="perception">Perception</label>
+            <input type="number" id="perception" name="perception" min="1" max="10" value="1" required>
+          </div>
+          <div>
+            <label for="endurance">Endurance</label>
+            <input type="number" id="endurance" name="endurance" min="1" max="10" value="1" required>
+          </div>
+          <div>
+            <label for="charisma">Charisma</label>
+            <input type="number" id="charisma" name="charisma" min="1" max="10" value="1" required>
+          </div>
+          <div>
+            <label for="intelligence">Intelligence</label>
+            <input type="number" id="intelligence" name="intelligence" min="1" max="10" value="1" required>
+          </div>
+          <div>
+            <label for="agility">Agility</label>
+            <input type="number" id="agility" name="agility" min="1" max="10" value="1" required>
+          </div>
+          <div>
+            <label for="luck">Luck</label>
+            <input type="number" id="luck" name="luck" min="1" max="10" value="1" required>
+          </div>
+        </fieldset>
+        <fieldset id="perks">
+          <legend>Perks</legend>
+          <h2>PERKS WILL GO HERE</h2>
+        </fieldset>
+        <button>Cancel</button>
+        <button>Create</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
